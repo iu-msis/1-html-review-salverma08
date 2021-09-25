@@ -43,6 +43,10 @@
     </header>
 <main class = "row">
 
+  <form v-on:submit.prevent="fetchUserData">
+  <button type="submit">Refresh</button>
+  </form>
+
 <div class = "row col-lg-4 col-md-8 col-sm-12 col-xs-12 details" id="someApp" >
 <img v-bind:src="result.picture.large">
 <p> Name: {{ result.name.first }} {{ result.name.last }}  </p>
