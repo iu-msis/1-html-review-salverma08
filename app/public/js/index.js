@@ -16,7 +16,8 @@ const SomeApp = {
     methods: {
         fetchUserData() {
             //Method 1:
-            fetch('https://randomuser.me/api/')
+          fetch('https://randomuser.me/api/')
+            //fetch('/api/student/')
             .then(response => response.json())
             .then((json) => {
                 console.log("Got json back:", json);

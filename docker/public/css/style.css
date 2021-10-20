@@ -1,0 +1,45 @@
+.details
+{
+ font-size: 18px;
+ font-family: serif;
+
+}
+
+.container
+{
+  background-color: #ebf2fa;
+}
+.row
+{
+  padding: 15px;
+
+}
+
+.rows{
+    padding: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: #3244a8;
+    background-color: #e6baba;
+}
+
+h1,h2,h3
+{
+  color: #965454;
+}
+
+#change{
+  color: #3244a8;
+}
+
+.change2
+{
+  color: #3277a8;
+}
+
+.change3
+{
+  color: #965454;
+}
